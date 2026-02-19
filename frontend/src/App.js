@@ -94,6 +94,22 @@ function App() {
             </div>
           </div>
 
+          {/* ========================================== */}
+          {/* NEW CI/CD AUTOMATION BANNER (Add this here) */}
+          {/* ========================================== */}
+          <div style={{
+            background: '#1e293b', 
+            border: '2px solid #22c55e', 
+            padding: '15px', 
+            borderRadius: '10px', 
+            textAlign: 'center', 
+            marginBottom: '20px',
+            boxShadow: '0 0 15px rgba(34, 197, 94, 0.2)'
+          }}>
+            <h2 style={{color: '#22c55e', margin: 0}}>🚀 Jenkins CI/CD Status: LIVE</h2>
+            <p style={{color: '#94a3b8', margin: '5px 0 0 0'}}>Automatic Deployment Successful at {new Date().toLocaleTimeString()}</p>
+          </div>
+
           {/* DASHBOARD GRID */}
           <div className="dashboard">
 
