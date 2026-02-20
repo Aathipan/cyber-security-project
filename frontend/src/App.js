@@ -74,7 +74,7 @@ function App() {
     <div className="container">
       {view === 'login' ? (
         <div className="login-box">
-          <h1>🔐 SecurePortal Access </h1>
+          <h1>🔐 last check bro </h1>
           <p>Authorized Personnel Only</p>
           <input placeholder="Username" onChange={(e) => setUsername(e.target.value)} />
           <input type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} />
